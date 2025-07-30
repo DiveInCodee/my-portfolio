@@ -24,7 +24,7 @@ export default {
         },
         {
           id: 3,
-          name: 'Culinary Arts Personal Design Project',
+          name: 'Culinary Portfolio Piece',
           imageUrl: 'sahabatmuslim',
           status: 'A self-initiated Figma project exploring parallax-style transitions using click-based navigation. The design showcases Asian cuisine with layered visual depth, and smooth section changes for an engaging user experience.',
           tech: 'Figma',
