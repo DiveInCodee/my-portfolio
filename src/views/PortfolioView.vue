@@ -8,46 +8,55 @@ export default {
           id: 1,
           name: 'Personal Website',
           imageUrl: 'portfolio_v2',
-          status: 'My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology.',
+          status: 'A responsive and visually engaging portfolio site designed to showcase my projects, skills, and background as a web and multimedia designer. Built with modern tools and clean UI to reflect my personal style and design approach.',
           tech: 'VueJS 3, Tailwind',
           github: 'https://github.com/rakha-elctrnx/Portofolio-v2',
           demo: 'https://bagasrakha.netlify.app/'
         },
         {
           id: 2,
-          name: 'Sahabat Muslim',
-          imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'VueJS 3, Tailwind',
-          github: 'https://github.com/rakha-elctrnx/muslim-companion',
-          demo: 'https://sahabat-muslim.netlify.app/'
+          name: 'Brgy Information System',
+          imageUrl: 'sistekdes',
+          status: 'Brgy. Calaylayan Information System, a web application designed to support barangay-level governance through efficient management of resident records, administrative tasks, community services, and local reports.',
+          tech: 'HTML, Bootstrap, CSS, PHP',
+          github: 'null',
+          demo: 'https://brgycalaylayan.com/'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
-          imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
+          name: 'Asian Culinary Arts Personal Design Project',
+          imageUrl: 'sahabatmuslim',
+          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
+          tech: 'Figma',
           github: 'null',
-          demo: 'null'
+          demo: 'https://www.figma.com/proto/lIcs8rFD6ZScL5QT2l2rtc/Culinary-Arts-Sample-Proj?page-id=0%3A1&node-id=18-49&p=f&viewport=-80%2C625%2C0.09&t=tZotVsrvKaLaWw77-1&scaling=min-zoom&content-scaling=fixed'
         },
         {
           id: 4,
-          name: 'Bumdesma',
+          name: 'Bataan Heroes College Brochure',
           imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
+          status: 'A commissioned brochure designed for the final project of a fellow student, highlighting the academic offerings, and core values of BHC. I managed the layout, typography, and overall design to achieve a clean, professional look.',
+          tech: 'Canva',
           github: 'null',
-          demo: 'null'
+          demo: 'https://www.canva.com/design/DAGodVWkfiQ/WfyyLihrN_WchilmbrbkKQ/edit?utm_content=DAGodVWkfiQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
         },
         {
           id: 5,
-          name: 'SP2SE',
+          name: 'Business Card',
           imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
+          status: 'A personalized business card designed for my supervisor during my internship at ECC. The design balances professionalism and clarity, featuring clean typography, essential contact details, and a layout tailored to align with the ECC branding.',
+          tech: 'Canva',
           github: 'null',
-          demo: 'null'
+          demo: 'https://www.canva.com/design/DAGiauoGUxs/t_4ZFqGXcGqAgS9rBRikZg/edit?utm_content=DAGiauoGUxs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+        },
+        {
+          id: 6,
+          name: 'YouTube Short',
+          imageUrl: 'ytshort',
+          status: 'A fast-paced YouTube Short featuring Macy navigating a vibrant tech-themed world. Created using playful visuals and dynamic editing to explore how tech influences daily life.',
+          tech: 'CapCut, Hailuo AI, ElevenLabs',
+          github: 'null',
+          demo: 'https://youtube.com/shorts/36z_URF08bg?si=9_mmbSEubnHEPtkj'
         }
       ]
     };

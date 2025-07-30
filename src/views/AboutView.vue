@@ -32,19 +32,19 @@ export default {
           id: 5,
           name: 'Laravel',
           imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
+          status: 'Beginner'
         },
         {
           id: 6,
           name: 'Codeigniter',
           imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate'
+          status: 'Beginner'
         },
         {
           id: 7,
           name: 'VueJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
+          status: 'Beginner'
         },
         {
           id: 8,
@@ -62,19 +62,19 @@ export default {
           id: 10,
           name: 'Tailwind',
           imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
+          status: 'Intermediate'
         },
         {
           id: 11,
           name: 'Bootstrap',
           imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
+          status: 'Advance'
         },
         {
           id: 12,
           name: 'ReactJS',
           imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
+          status: 'Intermediate'
         }
       ],
       tools: [
@@ -123,23 +123,21 @@ export default {
       <section
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
-          <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
+          <img class="w-7/12 rounded-full mb-3 fadein-up"
+            src="/profile.jpg.jpg" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Hi everyone! I'm is Eliandra B. Melendres. I’m an aspiring web and multimedia designer with a passion
+            for creating meaningful and visually engaging digital experiences.
+            From building interactive websites to designing intuitive user interfaces in Figma, I enjoy turning ideas into functional, user-friendly projects.
+            My background includes hands-on experience with HTML, CSS, JavaScript, PHP, and version control 
+            using GitHub, and I’ve also studied C++ as part of my programming foundation.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+            &nbsp; &nbsp; &nbsp; Currently, I’m focused on expanding my skills in web design. I’m learning various design and website-building tools — with a strong focus on Figma, 
+            and currently exploring Shopify and WordPress. Whether I’m building something fun or solving a real-world problem, 
+            I’m always eager to learn, experiment, and grow as a digital creator.
           </p>
         </div>
 
