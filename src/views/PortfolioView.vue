@@ -24,12 +24,12 @@ export default {
         },
         {
           id: 3,
-          name: 'YouTube Short',
-          imageUrl: 'ytshort',
-          status: 'A fast-paced YouTube Short featuring Macy navigating a vibrant tech-themed world. Created using playful visuals and dynamic editing to explore how tech influences daily life.',
-          tech: 'CapCut, Hailuo AI, ElevenLabs',
+          name: 'Culinary Portfolio Piece',
+          imageUrl: 'sahabatmuslim',
+          status: 'A self-initiated Figma project exploring parallax-style transitions using click-based navigation. The design showcases Asian cuisine with visual depth, and smooth section changes for an engaging user experience.',
+          tech: 'Figma',
           github: 'null',
-          demo: 'https://youtube.com/shorts/36z_URF08bg?si=9_mmbSEubnHEPtkj'
+          demo: 'https://www.figma.com/proto/lIcs8rFD6ZScL5QT2l2rtc/Culinary-Arts-Sample-Proj?page-id=0%3A1&node-id=18-49&p=f&viewport=-80%2C625%2C0.09&t=tZotVsrvKaLaWw77-1&scaling=min-zoom&content-scaling=fixed'
         },
         {
           id: 4,
@@ -51,12 +51,12 @@ export default {
         },
         {
           id: 6,
-          name: 'Culinary Portfolio Piece',
-          imageUrl: 'sahabatmuslim',
-          status: 'A self-initiated Figma project exploring parallax-style transitions using click-based navigation. The design showcases Asian cuisine with layered visual depth, and smooth section changes for an engaging user experience.',
-          tech: 'Figma',
+          name: 'YouTube Short',
+          imageUrl: 'ytshort',
+          status: 'A fast-paced YouTube Short featuring Macy navigating a vibrant tech-themed world. Created using playful visuals and dynamic editing to explore how tech influences daily life.',
+          tech: 'CapCut, Hailuo AI, ElevenLabs',
           github: 'null',
-          demo: 'https://www.figma.com/proto/lIcs8rFD6ZScL5QT2l2rtc/Culinary-Arts-Sample-Proj?page-id=0%3A1&node-id=18-49&p=f&viewport=-80%2C625%2C0.09&t=tZotVsrvKaLaWw77-1&scaling=min-zoom&content-scaling=fixed'
+          demo: 'https://youtube.com/shorts/36z_URF08bg?si=9_mmbSEubnHEPtkj'
         }
       ]
     };
