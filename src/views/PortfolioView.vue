@@ -26,7 +26,7 @@ export default {
           id: 3,
           name: 'Asian Culinary Arts Personal Design Project',
           imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
+          status: 'A self-initiated Figma project exploring parallax-style transitions using click-based navigation. The design showcases Asian cuisine with layered visual depth and smooth section changes for an engaging user experience.',
           tech: 'Figma',
           github: 'null',
           demo: 'https://www.figma.com/proto/lIcs8rFD6ZScL5QT2l2rtc/Culinary-Arts-Sample-Proj?page-id=0%3A1&node-id=18-49&p=f&viewport=-80%2C625%2C0.09&t=tZotVsrvKaLaWw77-1&scaling=min-zoom&content-scaling=fixed'
