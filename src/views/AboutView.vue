@@ -30,15 +30,15 @@ export default {
         },
         {
           id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Beginner'
+          name: 'C++',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/6132/6132222.png',
+          status: 'Intermediate'
         },
         {
           id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Beginner'
+          name: 'Python',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968350.png',
+          status: 'Intermediate'
         },
         {
           id: 7,
@@ -48,8 +48,8 @@ export default {
         },
         {
           id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          name: 'WordPress',
+          imageUrl: 'https://s.w.org/about/images/logos/wordpress-logo-notext-rgb.png',
           status: 'Beginner'
         },
         {
@@ -92,17 +92,44 @@ export default {
         },
         {
           id: 3,
-          name: 'NPM',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
-        },
-        {
-          id: 4,
           name: 'MySQL',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
           status: 'Database'
         },
-      ]
+        {
+          id: 4,
+          name: 'VS Code',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-visual-studio-code-1868940-1583105.png',
+          status: 'Code Editor'
+        }
+      ],
+      designTools: [
+      {
+        id: 1,
+        name: 'Figma',
+        imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968705.png',
+        status: 'UI/UX Design'
+      },
+      {
+        id: 2,
+        name: 'Photoshop',
+        imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968520.png',
+        status: 'Image Editing'
+      },
+      {
+        id: 3,
+        name: 'Canva',
+        imageUrl: 'https://www.vecteezy.com/png/32329171-canva-icon-logo-symbol',
+        status: 'Graphic Design'
+      },
+      {
+        id: 4,
+        name: 'Illustrator',
+        imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968472.png',
+        status: 'Vector Design'
+      }
+    ]
+
     };
   }
 }
@@ -166,6 +193,11 @@ export default {
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
                 :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
             </li>
+            <li class="mr-2">
+              <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 3 }"
+                @click="activeTab = 3">Design Tools</button>
+            </li>
           </ul>
         </div>
         <div v-show="activeTab === 1">
@@ -210,6 +242,27 @@ export default {
             </div>
           </div>
         </div>
+        <div v-show="activeTab === 3">
+          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+            <div v-for="item in designTools" :key="item.id">
+              <div
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
+                  <img :alt="item.name" loading="lazy" width="32" height="32"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]"
+                    :src="item.imageUrl" />
+                </div>
+                <div class="flex items-center text-sm md:text-base lg:text-lg">
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}</div>
+                  <div class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
+                    {{ item.status }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
     </article>
   </div>
